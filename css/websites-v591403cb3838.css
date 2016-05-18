@@ -132,25 +132,7 @@
   color: white;
   background: #666;
 }
-#public-landing-page.full-screen .hero {
-  padding: 0 0 87px 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-}
-#public-landing-page.full-screen.centered .hero {
-  background-size: cover;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  align-items: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-}
+
 #public-landing-page.full-screen.centered .hero .container {
   max-width: 850px;
 }
@@ -539,7 +521,7 @@
 
 #public-landing-page.template-1 .hero,
 #public-landing-page.template-1color .hero {
-  padding: 0 0 100px 0;
+  padding: 90px 0 100px 0;
 }
   #public-landing-page.template-1 .hero .container,
   #public-landing-page.template-1color .hero .container {
